@@ -1,4 +1,6 @@
-# JUMP is a Universal Maintenance Pod - Red Hat Enterprise Linux version
+# JUMP is a Universal Maintenance Pod
+
+This version is based on Red Hat Enterprise Linux! For the version built on CentOS, see: https://github.com/venera-13/jump
 
 JUMP is a container originally designed as a tool for maintenance on ''edge'' systems running Podman. Starting a JUMP maintenance container can give access for troubleshooting or maintenance using the remote access tools most engineers are comfortable with. Using multiple protocols provides flexibility and allows access from numerous clients from a great number of operating systems.
 
@@ -12,9 +14,7 @@ The JUMP container enables dynamic resizing of desktop sessions on all of the ab
 
 ## Note on Red Hat Universal Base Image
 
-For the version built on CentOS, see: https://github.com/venera-13/jump
-
-This container makes use of the Red Hat Universal Base Image (UBI) (https://developers.redhat.com/products/rhel/ubi/). Red Hat provides support on containers built using their base images, which can be valuable in enterprise environments. A downside of using the UBI is that certain packages can only be accessed with an active Red Hat subscription. For this reason this container image can not be redistributed through, for example, Docker Hub.
+This container is built using the Red Hat Universal Base Image (UBI) (https://developers.redhat.com/products/rhel/ubi/). Red Hat provides support on containers built using their base images, which can be valuable in enterprise environments. A downside of using the UBI is that certain packages can only be accessed with an active Red Hat subscription. For this reason this container image can not be redistributed through, for example, Docker Hub.
 
 There are a few extra steps for building UBI images using packages only available through subscription:
 
