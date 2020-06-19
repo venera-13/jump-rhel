@@ -1,6 +1,6 @@
 # JUMP is a Universal Maintenance Pod
 
-**This version is based on Red Hat Enterprise Linux!**
+**This version is based on Red Hat Enterprise Linux!**   
 *For the version built on CentOS, see: https://github.com/venera-13/jump*
 
 JUMP is a container originally designed as a tool for maintenance on ''edge'' systems running Podman. Starting a JUMP maintenance container can give access for troubleshooting or maintenance using the remote access tools most engineers are comfortable with. Using multiple protocols provides flexibility and allows access from numerous clients from a great number of operating systems.
